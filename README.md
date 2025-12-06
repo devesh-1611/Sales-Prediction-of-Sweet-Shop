@@ -3,13 +3,13 @@ This project performs an end-to-end data analysis, visualization, festival-wise 
 
 The analysis includes:
 
-✔ Complete EDA
-✔ Festival-wise sales insights (Diwali, Rakshabandhan, Sankranti)
-✔ Weekend vs Weekday behavior
-✔ Month-wise & Week-wise performance
-✔ Product-wise & Branch-wise breakdown
-✔ ML Forecasting using Random Forest, XGBoost, and Custom RandomForest
-✔ Generating 365-day future sales prediction per product
+ Complete EDA
+ Festival-wise sales insights (Diwali, Rakshabandhan, Sankranti)
+ Weekend vs Weekday behavior
+ Month-wise & Week-wise performance
+ Product-wise & Branch-wise breakdown
+ ML Forecasting using Random Forest, XGBoost, and Custom RandomForest
+ Generating 365-day future sales prediction per product
 
 Project Overview
 
@@ -58,7 +58,7 @@ Other metadata
 
 Performed steps:
 
-✔ Data Inspection
+ Data Inspection
 
 df.head()
 
@@ -83,17 +83,17 @@ Both full-month & Rakhi-week sales calculated.
 Month-wise and Sankranti-week sales evaluated
 
 6. Visual Analysis
-✔ Weekend vs Weekday Sales (Pie Chart)
+ Weekend vs Weekday Sales (Pie Chart)
 
 Shows contribution of weekends in total revenue.
 
-✔ Month-wise Sales Trend (Line Plot)
+ Month-wise Sales Trend (Line Plot)
 
 Identifies high-performing months.
 
-✔ Week-wise Sales Trend (Bar Plot)
-✔ Product-wise Sales (Bar Plot)
-✔ Branch-wise Sales (Bar Plot)
+ Week-wise Sales Trend (Bar Plot)
+ Product-wise Sales (Bar Plot)
+ Branch-wise Sales (Bar Plot)
 
 All visualizations use seaborn & matplotlib
 
@@ -105,7 +105,7 @@ Branch encoded
 Product encoded
 
 Models Used
-1️ Custom RandomForest Implementation (Baseline Model)
+ Custom RandomForest Implementation (Baseline Model)
 
 Trains 10 “dummy” trees
 
